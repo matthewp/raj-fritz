@@ -2,7 +2,25 @@
   "name": "raj-fritz",
   "version": "1.0.0",
   "main": "index.js",
+  "jsnext:main": "src/index.js",
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/raj-fritz.git"
+  },
+  "author": "Matthew Phillips",
+  "bugs": {
+    "url": "https://github.com/matthewp/raj-fritz/issues"
+  },
+  "homepage": "https://github.com/matthewp/raj-fritz#readme",
+  "keywords": [
+    "web-components",
+    "webcomponents",
+    "react",
+    "raj",
+    "virtualdom",
+    "web-worker"
+  ],
   "files": [
     "raj-fritz.js",
     "raj-fritz.umd.js"

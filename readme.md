@@ -34,7 +34,7 @@ const counterProgram = {
   }
 };
 
-const App = program(fritz.Component, helloProgram);
+const App = program(fritz.Component, props => counterProgram);
 
 fritz.define('basic-app', App);
 ```

@@ -1,4 +1,5 @@
 import { program } from 'raj/runtime';
+import deepEqual from 'fast-deep-equal';
 
 function fritzProgram(Component, createApp) {
   return class extends Component {
@@ -27,8 +28,7 @@ function fritzProgram(Component, createApp) {
     }
 
     componentWillReceiveProps(newProps) {
-      // TODO this is wrong
-      if(newProps !== this.props) {
+      if(!deepEqual(newProps, this.props)) {
         this.makeProgram(newProps, false);
       }
     }

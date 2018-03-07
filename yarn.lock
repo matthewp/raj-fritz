@@ -253,6 +253,10 @@ esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
+fast-deep-equal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
+
 fritz@^3.1.2:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fritz/-/fritz-3.1.3.tgz#284162ccf79d50cd77f03ab3c40b9e0811140c3d"

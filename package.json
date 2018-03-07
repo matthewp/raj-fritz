@@ -1,6 +1,6 @@
 {
   "name": "raj-fritz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "jsnext:main": "src/index.js",
   "license": "BSD-2-Clause",

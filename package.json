@@ -1,0 +1,20 @@
+{
+  "name": "raj-fritz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "raj-fritz.js",
+    "raj-fritz.umd.js"
+  ],
+  "devDependencies": {
+    "fritz": "^3.1.2",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "dependencies": {
+    "raj": "^0.0.10"
+  }
+}

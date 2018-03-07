@@ -2,7 +2,7 @@
   "name": "raj-fritz",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "files": [
     "raj-fritz.js",
     "raj-fritz.umd.js"

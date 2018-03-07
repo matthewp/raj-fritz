@@ -1,4 +1,4 @@
-import {program} from 'raj/runtime';
+import { program } from 'raj/runtime';
 
 function fritzProgram(Component, createApp) {
   return class extends Component {
